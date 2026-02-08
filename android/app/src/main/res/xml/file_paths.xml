@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!-- 暴露应用内部 files 目录，供通知自定义铃音使用 content:// URI -->
+    <files-path name="files" path="." />
+</paths>

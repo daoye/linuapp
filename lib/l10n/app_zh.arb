@@ -1,0 +1,348 @@
+{
+  "@@locale": "zh",
+  "appTitle": "狸奴",
+  "conversationListTitle": "会话",
+  "settings": "设置",
+  "upgrade": "升级",
+  "upgradeToPremium": "升级到高级版",
+  "upgradeToViewAll": "升级查看全部",
+  "premium": "高级版",
+  "language": "语言",
+  "theme": "主题",
+  "deviceToken": "设备令牌",
+  "deviceTokenDescription": "使用此令牌配置您的推送服务器",
+  "copy": "复制",
+  "copied": "已复制",
+  "appVersion": "应用版本",
+  "termsOfService": "服务条款",
+  "privacyPolicy": "隐私政策",
+  "systemLanguage": "系统语言",
+  "english": "English",
+  "simplifiedChinese": "简体中文",
+  "systemTheme": "系统",
+  "lightTheme": "浅色",
+  "darkTheme": "深色",
+  "getStarted": "开始使用",
+  "monthly": "每月订阅",
+  "yearly": "每年订阅",
+  "lifetime": "永久购买",
+  "unlimitedMessages": "解锁无限消息",
+  "supportDevelopment": "支持开发",
+  "bestValue": "最超值",
+  "currentPlan": "当前方案",
+  "retry": "重试",
+  "error": "错误",
+  "loading": "加载中",
+  "waitingForPushPermission": "等待推送通知权限...",
+  "noMessages": "暂无消息",
+  "noMessagesDescription": "您的消息将显示在这里",
+  "quickStartTitle": "快速开始",
+  "quickStartStep1": "在设置中复制您的设备令牌",
+  "quickStartStep2": "使用令牌调用推送 API",
+  "quickStartStep3": "消息将立即显示在这里",
+  "testPushButton": "发送测试消息",
+  "testPushTitle": "欢迎使用狸奴",
+  "testPushBody": "您的第一条通知已送达！🎉",
+  "testPushSent": "测试消息已发送！",
+  "testPushFailed": "发送失败",
+  "testPushNoToken": "未找到设备令牌",
+  "sending": "发送中...",
+  "pin": "置顶",
+  "unpin": "取消置顶",
+  "send": "发送",
+  "reply": "回复",
+  "messageTitle": "消息",
+  "noMessageId": "缺少消息 ID",
+  "conversationOptions": "操作",
+  "messageOptions": "消息选项",
+  "unpinInboxHint": "取消置顶后将按时间排序。",
+  "pinInboxHint": "置顶后将固定在收件箱顶部。",
+  "unpinGroupHint": "取消置顶后将按时间排序。",
+  "pinGroupHint": "置顶后将固定在该会话顶部。",
+  "groupConversationFallback": "会话",
+  "defaultGroupName": "群组",
+  "noMessagesInConversation": "暂无消息",
+  "noMessagesInConversationDescription": "此群组中的消息将显示在这里",
+  "emptyField": "（无）",
+  "delete": "删除",
+  "deleteComingSoon": "删除功能将在后续版本提供。",
+  "deleteConfirmation": "确定要删除吗？此操作无法撤销。",
+  "cancel": "取消",
+  "legal": "法律信息",
+  "about": "关于",
+  "yesterday": "昨天",
+  "unlockAllFeatures": "解锁全部会话与加密功能",
+  "hiddenGroupsHint": "{count, plural, =1{还有1个群组} other{还有{count}个群组}} • 升级查看",
+  "@hiddenGroupsHint": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "e2eEncryption": "端到端消息加密",
+  "e2eEncryptionEmptyDescription": "还没有",
+  "setupKey": "设置密钥",
+  "e2ePremiumRequired": "需要高级版才能使用加密功能",
+  "e2eFaq": "常见问题",
+  "e2eFaqTitle": "关于端到端加密",
+  "generateKey": "生成密钥",
+  "generateKeyDescription": "创建一个新的加密密钥",
+  "importKey": "导入密钥",
+  "importKeyDescription": "从其他设备导入现有密钥",
+  "exportKey": "导出密钥",
+  "deleteKey": "删除密钥",
+  "deleteKeyDescription": "删除后将无法解密已加密的消息",
+  "deleteKeyConfirm": "确定要删除加密密钥吗？删除后将无法解密已加密的消息。",
+  "keyGenerated": "密钥生成成功",
+  "keyImported": "密钥导入成功",
+  "keyDeleted": "密钥已删除",
+  "invalidKeyFormat": "密钥格式无效",
+  "selectAll": "全选",
+  "deselectAll": "取消全选",
+  "batchDelete": "批量删除",
+  "deleteSelected": "删除所选",
+  "itemsSelected": "已选择 {count} 项",
+  "@itemsSelected": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "share": "分享",
+  "openInBrowser": "在浏览器中打开",
+  "viewDetails": "查看详情",
+  "welcomeToPremium": "欢迎使用高级版！",
+  "continueWith": "以 {price} 继续",
+  "@continueWith": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "selectPlan": "选择方案",
+  "alreadyLifetime": "已是永久会员",
+  "restorePurchases": "恢复购买",
+  "terms": "条款",
+  "checkingPurchases": "正在检查之前的购买...",
+  "unlockFullPower": "解锁全部功能",
+  "unlockDescription": "解锁全部会话与\n端到端加密功能",
+  "unlimitedConversations": "无限会话",
+  "viewAllGroups": "查看所有消息群组",
+  "secureMessages": "保护您的敏感消息",
+  "helpKeepAlive": "帮助维持应用运营",
+  "savePercent": "相比月付节省 {percent}%",
+  "@savePercent": {
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "oneTime": "一次性",
+  "lifetimePremium": "永久高级版",
+  "permanentAccess": "您已永久拥有所有功能",
+  "actions": "操作",
+  "multiSelect": "多选",
+  "authRequired": "需要身份认证",
+  "authReason": "请进行身份认证以访问您的加密密钥",
+  "authFailed": "身份认证失败，请重试",
+  "authNotAvailable": "此设备不支持身份认证",
+  "authCancelled": "身份认证已取消",
+  "authNoCredentials": "设备未设置锁屏密码，请在系统设置中设置密码或PIN码",
+  "viewKey": "查看密钥",
+  "encryptedMessages": "待解密消息",
+  "encryptedMessage": "加密消息",
+  "encryptedMessagesDescription": "管理解密失败的消息",
+  "noEncryptedMessages": "没有待解密的消息",
+  "allMessagesDecrypted": "所有消息已成功解密",
+  "encryptedMessagesCount": "{count, plural, =1{1 条消息} other{{count} 条消息}}",
+  "@encryptedMessagesCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "encryptedMessagesWithCount": "待解密消息 ({count})",
+  "@encryptedMessagesWithCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "retryAll": "全部重试",
+  "deleteAll": "全部删除",
+  "retryAllMessages": "重试所有消息",
+  "retryAllMessagesConfirm": "确定要重试解密所有待解密消息吗？",
+  "confirm": "确定",
+  "retryComplete": "重试完成: 成功 {success}, 失败 {failed}",
+  "@retryComplete": {
+    "placeholders": {
+      "success": {
+        "type": "int"
+      },
+      "failed": {
+        "type": "int"
+      }
+    }
+  },
+  "decryptionSuccess": "解密成功",
+  "decryptionFailed": "解密失败，请检查密钥设置",
+  "encryptedMessageNotificationBody": "收到一条加密消息，暂时无法解密",
+  "deleteMessage": "删除消息",
+  "deleteMessageConfirm": "确定要删除这条待解密消息吗？删除后无法恢复。",
+  "messageDeleted": "消息已删除",
+  "deleteAllMessages": "删除所有消息",
+  "deleteAllMessagesConfirm": "确定要删除所有待解密消息吗？删除后无法恢复。",
+  "allMessagesDeleted": "所有消息已删除",
+  "receivedAt": "接收时间",
+  "retryCount": "重试次数",
+  "lastRetry": "最后重试",
+  "setupEncryption": "设置加密",
+  "faqQuestion1": "什么是端到端加密？",
+  "faqAnswer1": "端到端加密意味着您的消息在发送前就被加密，直到到达接收方才会被解密。在整个传输过程中，包括服务器在内的任何中间环节都无法查看消息的原始内容，只有发送方和接收方能够阅读消息。",
+  "faqQuestion2": "如果我丢失了密钥会怎样？",
+  "faqAnswer2": "如果您丢失了加密密钥，您将无法解密任何未来的加密消息。请确保安全地备份您的密钥。",
+  "faqQuestion3": "我可以更改我的密钥吗？",
+  "faqAnswer3": "是的，您可以随时生成新密钥或导入不同的密钥。消息在接收时会被解密，因此更改密钥不会影响之前接收的消息。",
+  "faqQuestion4": "我的密钥是否存储在服务器上？",
+  "faqAnswer4": "不会。您的加密密钥仅使用安全存储存储在您的设备上。服务器永远无法访问您的密钥。",
+  "faqQuestion5": "使用什么加密算法？",
+  "faqAnswer5": "我们使用 AES-256-GCM（高级加密标准，256 位密钥，Galois/Counter 模式）算法。这是一种经过广泛验证的对称加密算法，提供了强大的安全性和数据完整性保护。",
+  "importKeyDescription": "粘贴您的 32 字节 AES 密钥（Base64）",
+  "importKeyHint": "输入 Base64 编码的密钥...",
+
+  "loadFailed": "加载失败",
+  "deleteFailed": "删除失败",
+  "preview": "预览",
+  "audioManagement": "通知声音",
+  "notificationSound": "通知声音",
+  "systemRingtone": "系统铃声",
+  "systemDefault": "系统默认",
+  "customAudio": "自定义",
+  "customRingtones": "自定义铃声",
+  "manageCustomAudio": "管理自定义通知声音和铃声",
+  "importAudio": "导入通知声音",
+  "setAudioName": "设置通知声音名称",
+  "audioNameHint": "用于在发送消息时指定此声音",
+  "useDefaultName": "使用默认名称",
+  "confirmImport": "确认导入",
+  "trimAudio": "裁剪音频",
+  "trimAudioHint": "拖动选区调整裁剪范围",
+  "zoomLevel": "缩放",
+  "selectionDuration": "选区",
+  "audioDuration": "时长",
+  "startTime": "开始时间",
+  "endTime": "结束时间",
+  "maxDuration": "最长 30 秒",
+  "exceedsMaxDuration": "时长不能超过 30 秒",
+  "noCustomAudio": "暂无自定义通知声音",
+  "tapAddToImport": "点击右上角 + 导入通知声音",
+  "customSoundApiTitle": "API 参数示例",
+  "customSoundApiDescription": "在推送请求中使用 sound 参数指定自定义声音：",
+  "viewDocs": "查看文档",
+  "deleteAudio": "删除通知声音",
+  "deleteAudioConfirm": "确定要删除此通知声音吗？",
+  "audioDeleted": "通知声音已删除",
+  "renameAudio": "重命名通知声音",
+  "audioName": "通知声音名称",
+  "enterAudioName": "请输入通知声音名称",
+  "renameSuccess": "重命名成功",
+  "renameFailed": "重命名失败",
+  "audioImported": "通知声音已导入",
+  "trimFailed": "裁剪失败",
+  "getAudioInfoFailed": "不支持此音频格式",
+  "previewFailed": "预览失败",
+  "systemDefaultCannotPreview": "系统默认铃声无法预览",
+  "storagePermissionDenied": "存储权限被拒绝",
+  "filePathNotAvailable": "文件路径不可用",
+  "loadingAudio": "正在加载通知声音...",
+  "stop": "停止",
+  "totalDuration": "总时长：{duration}",
+  "@totalDuration": {
+    "description": "Total duration of audio",
+    "placeholders": {
+      "duration": {
+        "type": "String",
+        "example": "3:45"
+      }
+    }
+  },
+  "trimmedDuration": "裁剪后时长：{duration}",
+  "@trimmedDuration": {
+    "description": "Trimmed duration of audio",
+    "placeholders": {
+      "duration": {
+        "type": "String",
+        "example": "0:30"
+      }
+    }
+  },
+
+  "webhookToken": "伪装设备令牌",
+  "webhookTokenFaq": "了解更多",
+  "webhookTokenFaqTitle": "关于伪装设备令牌",
+  "webhookUsingPseudoToken": "伪装设备令牌",
+  "webhookUsingRealToken": "真实设备令牌",
+  "resetWebhookToken": "重置",
+  "resetWebhookTokenDescription": "生成新的伪装设备令牌",
+  "resetWebhookTokenConfirm": "重置后，webhook 服务器将收到新的令牌。如果服务器依赖此令牌识别设备，可能需要重新配置。确定要重置吗？",
+  "webhookTokenReset": "伪装令牌已重置",
+  "switchToRealToken": "关闭伪装",
+  "switchToRealTokenDescription": "将真实设备令牌发送给 webhook 服务器",
+  "switchToRealTokenConfirm": "真实设备令牌是敏感信息，可能被用于追踪您的设备。除非您信任 webhook 服务器，否则建议使用伪装设备令牌。确定要关闭吗？",
+  "switchedToRealToken": "已关闭伪装",
+  "usePseudoToken": "伪装设备令牌",
+  "usePseudoTokenDescription": "使用随机生成的令牌代替真实设备令牌",
+  "switchToPseudoToken": "开启伪装",
+  "switchToPseudoTokenDescription": "使用随机生成的令牌保护隐私",
+  "switchedToPseudoToken": "已开启伪装",
+  "webhookFaqQuestion1": "什么是伪装设备令牌？",
+  "webhookFaqAnswer1": "点击消息中的操作按钮或发送回复时，应用会向 webhook 服务器发送请求。为了让服务器识别请求来源，请求中会携带设备令牌。伪装设备令牌是一个随机生成的标识符，可代替真实令牌使用，既能满足服务器识别需求，又能保护您的隐私。",
+  "webhookFaqQuestion2": "为什么需要伪装设备令牌？",
+  "webhookFaqAnswer2": "真实的设备令牌（APNs/FCM Token）是敏感信息，可能被用于追踪您的设备或发送未经授权的推送通知。使用伪装设备令牌可以在保持功能的同时保护您的隐私。",
+  "webhookFaqQuestion3": "什么时候需要使用真实令牌？",
+  "webhookFaqAnswer3": "如果您的 webhook 服务器需要使用设备令牌来发送推送通知（例如回复消息后向您推送确认），则需要关闭伪装使用真实令牌。否则，建议始终开启伪装。",
+  "webhookFaqQuestion4": "重置伪装令牌会有什么影响？",
+  "webhookFaqAnswer4": "重置后，webhook 服务器将收到一个全新的令牌。如果服务器使用令牌来关联用户数据，可能需要重新建立关联。这不会影响推送通知的接收。",
+
+  "initializationFailed": "初始化失败",
+  "unknownError": "未知错误",
+  "splashTagline": "轻量却不简陋的消息终端",
+  "splashSubtitle": "为处理消息而生",
+  "learnMore": "了解更多：linu.aprilzz.com",
+  "replaceExistingKey": "替换现有密钥？",
+  "replaceKeyConfirm": "您已有一个加密密钥。导入新密钥将替换现有密钥。确定要继续吗？",
+  "replace": "替换",
+  "defaultNotification": "默认通知",
+  "pushNotificationChannel": "推送消息通知",
+  "newMessage": "新消息",
+  "decryptedMessageChannel": "解密消息",
+  "decryptedMessageChannelDescription": "解密成功的加密消息",
+
+  "welcomeTo": "欢迎使用 {appName}",
+  "@welcomeTo": {
+    "placeholders": {
+      "appName": {
+        "type": "String"
+      }
+    }
+  },
+  "onboardingSubtitle": "您的个人消息中心",
+  "onboardingFeatureTokenTitle": "设备令牌",
+  "onboardingFeatureTokenDescription": "在设置中找到您的设备令牌，用于接收推送通知。",
+  "onboardingFeatureServerTitle": "服务器配置",
+  "onboardingFeatureServerDescription": "部署您自己的 Linu 服务器或使用我们的托管服务。",
+  "onboardingFeatureApiTitle": "API 集成",
+  "onboardingFeatureApiDescription": "通过简单的 REST API 从任何系统或服务发送消息。",
+  "aboutLinuName": "名字由来",
+  "aboutLinuNameTitle": "为什么叫「狸奴」？",
+  "aboutLinuNameContent": "「狸奴」是中国古代对猫的爱称，最早见于宋代诗人陆游的诗作。\n\n正如古时的狸奴默默守护家宅、带来温暖，如今的狸奴也将忠实地为您传递每一条重要通知——静默相伴，值得信赖。",
+
+  "ringingDefaultTitle": "注意",
+  "ringingDefaultBody": "重要消息"
+}

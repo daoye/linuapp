@@ -1,0 +1,348 @@
+{
+  "@@locale": "en",
+  "appTitle": "Linu",
+  "conversationListTitle": "Conversations",
+  "settings": "Settings",
+  "upgrade": "Upgrade",
+  "upgradeToPremium": "Upgrade to Premium",
+  "upgradeToViewAll": "Upgrade to View All",
+  "premium": "Premium",
+  "language": "Language",
+  "theme": "Theme",
+  "deviceToken": "Device Token",
+  "deviceTokenDescription": "Use this token to configure your push server",
+  "copy": "Copy",
+  "copied": "Copied",
+  "appVersion": "App Version",
+  "termsOfService": "Terms of Service",
+  "privacyPolicy": "Privacy Policy",
+  "systemLanguage": "System Language",
+  "english": "English",
+  "simplifiedChinese": "Simplified Chinese",
+  "systemTheme": "System",
+  "lightTheme": "Light",
+  "darkTheme": "Dark",
+  "getStarted": "Get Started",
+  "monthly": "Monthly",
+  "yearly": "Yearly",
+  "lifetime": "Lifetime",
+  "unlimitedMessages": "Unlock Unlimited Messages",
+  "supportDevelopment": "Support Development",
+  "bestValue": "Best Value",
+  "currentPlan": "Current Plan",
+  "retry": "Retry",
+  "error": "Error",
+  "loading": "Loading",
+  "waitingForPushPermission": "Waiting for push notification permission...",
+  "noMessages": "No messages yet",
+  "noMessagesDescription": "Your messages will appear here",
+  "quickStartTitle": "Quick Start",
+  "quickStartStep1": "Copy your device token from Settings",
+  "quickStartStep2": "Call the push API with your token",
+  "quickStartStep3": "Your message will appear here instantly",
+  "testPushButton": "Send Test Message",
+  "testPushTitle": "Welcome to Linu",
+  "testPushBody": "Your first notification has arrived! 🎉",
+  "testPushSent": "Test message sent!",
+  "testPushFailed": "Failed to send",
+  "testPushNoToken": "Device token not found",
+  "sending": "Sending...",
+  "pin": "Pin",
+  "unpin": "Unpin",
+  "send": "Send",
+  "reply": "Reply",
+  "messageTitle": "Message",
+  "noMessageId": "No message ID",
+  "conversationOptions": "Options",
+  "messageOptions": "Message options",
+  "unpinInboxHint": "Unpin to let it follow normal sorting.",
+  "pinInboxHint": "Pin to keep it at the top of your conversationlist.",
+  "unpinGroupHint": "Unpin to let it follow normal sorting.",
+  "pinGroupHint": "Pin to keep it at the top of this conversation.",
+  "groupConversationFallback": "Conversation",
+  "defaultGroupName": "Group",
+  "noMessagesInConversation": "No messages yet",
+  "noMessagesInConversationDescription": "Messages in this group will appear here",
+  "emptyField": "(None)",
+  "delete": "Delete",
+  "deleteComingSoon": "Delete will be available in a future version.",
+  "deleteConfirmation": "Are you sure you want to delete this item? This action cannot be undone.",
+  "cancel": "Cancel",
+  "legal": "Legal",
+  "about": "About",
+  "yesterday": "Yesterday",
+  "unlockAllFeatures": "Unlock all conversations & encryption",
+  "hiddenGroupsHint": "{count, plural, =1{1 more group} other{{count} more groups}} • Upgrade",
+  "@hiddenGroupsHint": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "e2eEncryption": "End-to-End Encryption",
+  "e2eEncryptionEmptyDescription": "The key has not been set. ",
+  "setupKey": "Set up key",
+  "e2ePremiumRequired": "Premium required to enable encryption",
+  "e2eFaq": "Frequently Asked Questions",
+  "e2eFaqTitle": "About End-to-End Encryption",
+  "generateKey": "Generate Key",
+  "generateKeyDescription": "Create a new encryption key",
+  "importKey": "Import Key",
+  "importKeyDescription": "Import an existing key from another device",
+  "exportKey": "Export Key",
+  "deleteKey": "Delete Key",
+  "deleteKeyDescription": "Encrypted messages cannot be decrypted after deletion",
+  "deleteKeyConfirm": "Are you sure you want to delete your encryption key? You will not be able to decrypt encrypted messages without it.",
+  "keyGenerated": "Key generated successfully",
+  "keyImported": "Key imported successfully",
+  "keyDeleted": "Key deleted",
+  "invalidKeyFormat": "Invalid key format",
+  "selectAll": "Select All",
+  "deselectAll": "Deselect All",
+  "batchDelete": "Batch Delete",
+  "deleteSelected": "Delete Selected",
+  "itemsSelected": "{count} selected",
+  "@itemsSelected": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "share": "Share",
+  "openInBrowser": "Open in Browser",
+  "viewDetails": "View Details",
+  "welcomeToPremium": "Welcome to Premium!",
+  "continueWith": "Continue with {price}",
+  "@continueWith": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "selectPlan": "Select a plan",
+  "alreadyLifetime": "Already Lifetime",
+  "restorePurchases": "Restore Purchases",
+  "terms": "Terms",
+  "checkingPurchases": "Checking for previous purchases...",
+  "unlockFullPower": "Unlock Full Power",
+  "unlockDescription": "Unlock all conversations and\nend-to-end encryption",
+  "unlimitedConversations": "Unlimited Conversations",
+  "viewAllGroups": "View all your message groups",
+  "secureMessages": "Secure your sensitive messages",
+  "helpKeepAlive": "Help keep the app alive",
+  "savePercent": "Save {percent}% compared to monthly",
+  "@savePercent": {
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "oneTime": "One-time",
+  "lifetimePremium": "Lifetime Premium",
+  "permanentAccess": "You have permanent access to all features",
+  "actions": "Actions",
+  "multiSelect": "Multi-select",
+  "authRequired": "Authentication Required",
+  "authReason": "Please authenticate to access your encryption key",
+  "authFailed": "Authentication failed. Please try again.",
+  "authNotAvailable": "Authentication is not available on this device",
+  "authCancelled": "Authentication was cancelled",
+  "authNoCredentials": "No screen lock is set on this device. Please set up a password or PIN in system settings",
+  "viewKey": "View Key",
+  "encryptedMessages": "Encrypted Messages",
+  "encryptedMessage": "Encrypted Message",
+  "encryptedMessagesDescription": "Manage messages that failed to decrypt",
+  "noEncryptedMessages": "No encrypted messages",
+  "allMessagesDecrypted": "All messages have been successfully decrypted",
+  "encryptedMessagesCount": "{count, plural, =1{1 message} other{{count} messages}}",
+  "@encryptedMessagesCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "encryptedMessagesWithCount": "Encrypted Messages ({count})",
+  "@encryptedMessagesWithCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "retryAll": "Retry All",
+  "deleteAll": "Delete All",
+  "retryAllMessages": "Retry All Messages",
+  "retryAllMessagesConfirm": "Are you sure you want to retry decrypting all encrypted messages?",
+  "confirm": "Confirm",
+  "retryComplete": "Retry complete: {success} succeeded, {failed} failed",
+  "@retryComplete": {
+    "placeholders": {
+      "success": {
+        "type": "int"
+      },
+      "failed": {
+        "type": "int"
+      }
+    }
+  },
+  "decryptionSuccess": "Decryption successful",
+  "decryptionFailed": "Decryption failed, please check your key settings",
+  "encryptedMessageNotificationBody": "You have a new encrypted message that could not be decrypted",
+  "deleteMessage": "Delete Message",
+  "deleteMessageConfirm": "Are you sure you want to delete this encrypted message? This action cannot be undone.",
+  "messageDeleted": "Message deleted",
+  "deleteAllMessages": "Delete All Messages",
+  "deleteAllMessagesConfirm": "Are you sure you want to delete all encrypted messages? This action cannot be undone.",
+  "allMessagesDeleted": "All messages deleted",
+  "receivedAt": "Received At",
+  "retryCount": "Retry Count",
+  "lastRetry": "Last Retry",
+  "setupEncryption": "Set Up Encryption",
+  "faqQuestion1": "What is end-to-end encryption?",
+  "faqAnswer1": "End-to-end encryption means your messages are encrypted before sending and only decrypted when they reach the recipient. Throughout the entire transmission process, including servers and any intermediate nodes, no one can view the original message content. Only the sender and recipient can read the messages.",
+  "faqQuestion2": "What happens if I lose my key?",
+  "faqAnswer2": "If you lose your encryption key, you will not be able to decrypt any future encrypted messages. Make sure to back up your key securely.",
+  "faqQuestion3": "Can I change my key?",
+  "faqAnswer3": "Yes, you can generate a new key or import a different one at any time. Messages are decrypted when received, so changing your key will not affect previously received messages.",
+  "faqQuestion4": "Is my key stored on the server?",
+  "faqAnswer4": "No. Your encryption key is stored only on your device using secure storage. The server never has access to your key.",
+  "faqQuestion5": "What encryption algorithm is used?",
+  "faqAnswer5": "We use AES-256-GCM (Advanced Encryption Standard with 256-bit keys in Galois/Counter Mode). This is a widely validated symmetric encryption algorithm that provides strong security and data integrity protection.",
+  "importKeyDescription": "Paste your 32-byte AES key (Base64)",
+  "importKeyHint": "Enter Base64 encoded key...",
+
+  "loadFailed": "Load failed",
+  "deleteFailed": "Delete failed",
+  "preview": "Preview",
+  "audioManagement": "Notification Sound",
+  "notificationSound": "Notification Sound",
+  "systemRingtone": "System Ringtone",
+  "systemDefault": "System Default",
+  "customAudio": "Custom",
+  "customRingtones": "Custom Ringtones",
+  "manageCustomAudio": "Manage custom notification sounds and ringtones",
+  "importAudio": "Import Notification Sound",
+  "setAudioName": "Set Notification Sound Name",
+  "audioNameHint": "Used to specify this sound when sending messages",
+  "useDefaultName": "Use Default Name",
+  "confirmImport": "Confirm Import",
+  "trimAudio": "Trim Audio",
+  "trimAudioHint": "Drag selection to adjust trim range",
+  "zoomLevel": "Zoom",
+  "selectionDuration": "Selection",
+  "audioDuration": "Duration",
+  "startTime": "Start Time",
+  "endTime": "End Time",
+  "maxDuration": "Max 30 seconds",
+  "exceedsMaxDuration": "Duration cannot exceed 30 seconds",
+  "noCustomAudio": "No custom notification sound",
+  "tapAddToImport": "Tap + to import notification sound",
+  "customSoundApiTitle": "API Parameter Example",
+  "customSoundApiDescription": "Use the sound parameter in push request to specify custom sound:",
+  "viewDocs": "Docs",
+  "deleteAudio": "Delete Notification Sound",
+  "deleteAudioConfirm": "Are you sure you want to delete this notification sound?",
+  "audioDeleted": "Notification sound deleted",
+  "renameAudio": "Rename Notification Sound",
+  "audioName": "Notification Sound Name",
+  "enterAudioName": "Enter notification sound name",
+  "renameSuccess": "Renamed successfully",
+  "renameFailed": "Rename failed",
+  "audioImported": "Notification sound imported",
+  "trimFailed": "Trim failed",
+  "getAudioInfoFailed": "Unsupported audio format",
+  "previewFailed": "Preview failed",
+  "systemDefaultCannotPreview": "System default ringtone cannot be previewed",
+  "storagePermissionDenied": "Storage permission denied",
+  "filePathNotAvailable": "File path not available",
+  "loadingAudio": "Loading notification sound...",
+  "stop": "Stop",
+  "totalDuration": "Total duration: {duration}",
+  "@totalDuration": {
+    "description": "Total duration of audio",
+    "placeholders": {
+      "duration": {
+        "type": "String",
+        "example": "3:45"
+      }
+    }
+  },
+  "trimmedDuration": "Trimmed duration: {duration}",
+  "@trimmedDuration": {
+    "description": "Trimmed duration of audio",
+    "placeholders": {
+      "duration": {
+        "type": "String",
+        "example": "0:30"
+      }
+    }
+  },
+
+  "webhookToken": "Pseudo Device Token",
+  "webhookTokenFaq": "Learn more",
+  "webhookTokenFaqTitle": "About Pseudo Device Token",
+  "webhookUsingPseudoToken": "Pseudo device token",
+  "webhookUsingRealToken": "Real device token",
+  "resetWebhookToken": "Reset",
+  "resetWebhookTokenDescription": "Generate a new pseudo device token",
+  "resetWebhookTokenConfirm": "After reset, the webhook server will receive a new token. If the server relies on this token to recognize your device, you may need to reconfigure it. Are you sure?",
+  "webhookTokenReset": "Pseudo token has been reset",
+  "switchToRealToken": "Disable Pseudo Token",
+  "switchToRealTokenDescription": "Send real device token to webhook server",
+  "switchToRealTokenConfirm": "The real device token is sensitive information that could be used to track your device. Unless you trust the webhook server, it's recommended to use a pseudo device token. Are you sure?",
+  "switchedToRealToken": "Pseudo token disabled",
+  "usePseudoToken": "Pseudo Device Token",
+  "usePseudoTokenDescription": "Use a randomly generated token instead of real device token",
+  "switchToPseudoToken": "Enable Pseudo Token",
+  "switchToPseudoTokenDescription": "Use a randomly generated token for privacy",
+  "switchedToPseudoToken": "Pseudo token enabled",
+  "webhookFaqQuestion1": "What is a Pseudo Device Token?",
+  "webhookFaqAnswer1": "When you tap action buttons or send replies, the app sends requests to webhook servers. To identify the request source, a device token is included. The pseudo device token is a randomly generated identifier that can replace your real token, allowing the server to identify your device while protecting your privacy.",
+  "webhookFaqQuestion2": "Why use a pseudo device token?",
+  "webhookFaqAnswer2": "The real device token (APNs/FCM Token) is sensitive information that could be used to track your device or send unauthorized push notifications. Using a pseudo device token protects your privacy while maintaining functionality.",
+  "webhookFaqQuestion3": "When should I use the real token?",
+  "webhookFaqAnswer3": "If your webhook server needs the device token to send push notifications (e.g., sending confirmation after you reply), you need to disable the pseudo token. Otherwise, it's recommended to always keep it enabled.",
+  "webhookFaqQuestion4": "What happens when I reset the pseudo token?",
+  "webhookFaqAnswer4": "After reset, the webhook server will receive a completely new token. If the server uses the token to associate user data, you may need to re-establish the association. This won't affect receiving push notifications.",
+
+  "initializationFailed": "Initialization Failed",
+  "unknownError": "Unknown error",
+  "splashTagline": "Lightweight yet powerful message terminal",
+  "splashSubtitle": "Built for handling messages",
+  "learnMore": "Learn more at linu.aprilzz.com",
+  "replaceExistingKey": "Replace existing key?",
+  "replaceKeyConfirm": "You already have an encryption key. Importing a new key will replace the existing one. Are you sure you want to continue?",
+  "replace": "Replace",
+  "defaultNotification": "Default Notification",
+  "pushNotificationChannel": "Push message notifications",
+  "newMessage": "New Message",
+  "decryptedMessageChannel": "Decrypted Messages",
+  "decryptedMessageChannelDescription": "Successfully decrypted encrypted messages",
+
+  "welcomeTo": "Welcome to {appName}",
+  "@welcomeTo": {
+    "placeholders": {
+      "appName": {
+        "type": "String"
+      }
+    }
+  },
+  "onboardingSubtitle": "Your personal message hub",
+  "onboardingFeatureTokenTitle": "Device Token",
+  "onboardingFeatureTokenDescription": "Find your unique device token in Settings to receive push notifications.",
+  "onboardingFeatureServerTitle": "Server Setup",
+  "onboardingFeatureServerDescription": "Deploy your own Linu server or use our hosted service.",
+  "onboardingFeatureApiTitle": "API Integration",
+  "onboardingFeatureApiDescription": "Send messages via our simple REST API from any system or service.",
+  "aboutLinuName": "About the Name",
+  "aboutLinuNameTitle": "Why \"Linu\"?",
+  "aboutLinuNameContent": "\"Linu\" (狸奴) is an ancient Chinese term of endearment for cats, first appearing in the poetry of Lu You, a Song Dynasty poet.\n\nJust as cats once quietly guarded homes and brought warmth, Linu now faithfully delivers your important notifications — always by your side, quiet yet reliable.",
+
+  "ringingDefaultTitle": "Attention",
+  "ringingDefaultBody": "Important message"
+}

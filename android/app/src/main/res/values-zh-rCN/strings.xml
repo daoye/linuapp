@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">狸奴</string>
+    <string name="ringing_channel_name">来电/紧急消息</string>
+    <string name="ringing_channel_description">持续响铃直到用户响应</string>
+    <string name="ringing_default_title">新消息</string>
+</resources>

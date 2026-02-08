@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Linu</string>
+    <string name="ringing_channel_name">Incoming/Urgent Messages</string>
+    <string name="ringing_channel_description">Continuous ringing until user responds</string>
+    <string name="ringing_default_title">New message</string>
+</resources>
