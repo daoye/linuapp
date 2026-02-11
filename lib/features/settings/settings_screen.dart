@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:package_info_plus/package_info_plus.dart';
 import 'package:url_launcher/url_launcher.dart';
+import 'package:go_router/go_router.dart';
 import 'package:app/l10n/app_localizations.dart';
 import 'package:app/features/settings/widgets/device_token_widget.dart';
 import 'package:app/features/settings/widgets/theme_toggle.dart';
@@ -83,6 +84,7 @@ class _SettingsScreenState extends ConsumerState<SettingsScreen> {
             Card(
               child: Column(
                 children: [
+
                   ListTile(
                     leading: const Icon(Icons.description_outlined),
                     title: Text(l10n.termsOfService),
@@ -108,6 +110,13 @@ class _SettingsScreenState extends ConsumerState<SettingsScreen> {
             Card(
               child: Column(
                 children: [
+                  ListTile(
+                    leading: const Icon(Icons.help_outline),
+                    title: Text(l10n.docs),
+                    trailing: const Icon(Icons.arrow_forward_ios, size: 16),
+                    onTap: () => context.push('/docs'),
+                  ),
+                  const Divider(height: 1),
                   // App Version
                   ListTile(
                     leading: const Icon(Icons.info_outline),

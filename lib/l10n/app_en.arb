@@ -344,5 +344,6 @@
   "aboutLinuNameContent": "\"Linu\" (狸奴) is an ancient Chinese term of endearment for cats, first appearing in the poetry of Lu You, a Song Dynasty poet.\n\nJust as cats once quietly guarded homes and brought warmth, Linu now faithfully delivers your important notifications — always by your side, quiet yet reliable.",
 
   "ringingDefaultTitle": "Attention",
-  "ringingDefaultBody": "Important message"
+  "ringingDefaultBody": "Important message",
+  "docs": "Documentation"
 }

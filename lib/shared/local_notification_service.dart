@@ -28,7 +28,7 @@ class LocalNotificationService {
 
   /// 初始化通知服务
   Future<void> initialize() async {
-    if (_initialized) return;
+    if (!Platform.isAndroid || _initialized) return;
 
     const androidSettings = AndroidInitializationSettings('@mipmap/ic_launcher');
     await _notifications.initialize(
@@ -107,6 +107,7 @@ class LocalNotificationService {
     String? payload,
     String? groupId,
   }) async {
+    if (!Platform.isAndroid) return;
     if (!_initialized) await initialize();
 
     final locale = WidgetsBinding.instance.platformDispatcher.locale;
@@ -148,11 +149,13 @@ class LocalNotificationService {
 
   /// 取消指定通知
   Future<void> cancel(int id) async {
+    if (!Platform.isAndroid) return;
     await _notifications.cancel(id);
   }
 
   /// 取消所有通知
   Future<void> cancelAll() async {
+    if (!Platform.isAndroid) return;
     await _notifications.cancelAll();
   }
 

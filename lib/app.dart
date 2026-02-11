@@ -14,6 +14,7 @@ import 'package:app/features/onboarding/onboarding_screen.dart';
 import 'package:app/features/splash/splash_screen.dart';
 import 'package:app/features/messages/encrypted_messages_page.dart';
 import 'package:app/features/audio/pages/audio_management_page.dart';
+import 'package:app/features/docs/docs_webview_page.dart';
 
 // 全局 NavigatorKey（用于显示 Overlay）
 final globalNavigatorKey = GlobalKey<NavigatorState>();
@@ -80,6 +81,33 @@ final routerProvider = Provider<GoRouter>((ref) {
           return CustomTransitionPage(
             key: state.pageKey,
             child: const SettingsScreen(),
+            transitionsBuilder:
+                (context, animation, secondaryAnimation, child) {
+              final curved = CurvedAnimation(
+                parent: animation,
+                curve: Curves.easeOutCubic,
+                reverseCurve: Curves.easeInCubic,
+              );
+              return FadeTransition(
+                opacity: curved,
+                child: SlideTransition(
+                  position: Tween<Offset>(
+                    begin: const Offset(0, 0.02),
+                    end: Offset.zero,
+                  ).animate(curved),
+                  child: child,
+                ),
+              );
+            },
+          );
+        },
+      ),
+      GoRoute(
+        path: '/docs',
+        pageBuilder: (context, state) {
+          return CustomTransitionPage(
+            key: state.pageKey,
+            child: const DocsWebViewPage(),
             transitionsBuilder:
                 (context, animation, secondaryAnimation, child) {
               final curved = CurvedAnimation(

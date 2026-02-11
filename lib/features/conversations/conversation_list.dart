@@ -261,6 +261,11 @@ class _ConversationListState extends ConsumerState<ConversationList>
           : AppBar(
               toolbarHeight: 48,
               centerTitle: true,
+              leading: IconButton(
+                icon: const Icon(Icons.description_outlined, size: 22),
+                tooltip: l10n.docs,
+                onPressed: () => context.push('/docs'),
+              ),
               title: Text(
                 l10n.appTitle,
                 style: theme.textTheme.titleMedium?.copyWith(

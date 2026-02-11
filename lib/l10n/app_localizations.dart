@@ -1669,6 +1669,12 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Important message'**
   String get ringingDefaultBody;
+
+  /// No description provided for @docs.
+  ///
+  /// In en, this message translates to:
+  /// **'Documentation'**
+  String get docs;
 }
 
 class _AppLocalizationsDelegate

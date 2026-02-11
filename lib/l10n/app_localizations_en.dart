@@ -870,4 +870,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get ringingDefaultBody => 'Important message';
+
+  @override
+  String get docs => 'Documentation';
 }

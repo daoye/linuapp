@@ -98,6 +98,7 @@
   "keyImported": "密钥导入成功",
   "keyDeleted": "密钥已删除",
   "invalidKeyFormat": "密钥格式无效",
+  "docs": "使用文档",
   "selectAll": "全选",
   "deselectAll": "取消全选",
   "batchDelete": "批量删除",

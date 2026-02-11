@@ -266,7 +266,7 @@ class AppDatabase extends _$AppDatabase {
         g.id as group_id,
         g.name as group_name,
         g.icon_url,
-        g.reply_webhook,
+        g.reply_callback,
         g.actions as group_actions,
         g.last_message_at as group_last_message_at
       FROM conversations c
@@ -315,7 +315,7 @@ class AppDatabase extends _$AppDatabase {
                   id: groupId,
                   name: row.readNullable<String>('group_name') ?? '',
                   iconUrl: row.readNullable<String>('icon_url') ?? '',
-                  replyWebhook: row.readNullable<String>('reply_webhook') ?? '',
+                  replyWebhook: row.readNullable<String>('reply_callback') ?? '',
                   actions: row.readNullable<String>('group_actions') ?? '',
                   lastMessageAt: row.readNullable<DateTime>('group_last_message_at'),
                 )

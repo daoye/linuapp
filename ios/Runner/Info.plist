@@ -37,6 +37,10 @@
 		<string>Authenticate to access encryption key</string>
 		<key>NSAppleMusicUsageDescription</key>
 		<string>Access music library to import custom audio files</string>
+		<key>NSPhotoLibraryUsageDescription</key>
+		<string>Access photo library to save images and videos or select media for upload.</string>
+		<key>NSMicrophoneUsageDescription</key>
+		<string>Microphone access is required for audio recording features.</string>
 		<key>UIApplicationSupportsIndirectInputEvents</key>
 		<true/>
 		<key>UIBackgroundModes</key>

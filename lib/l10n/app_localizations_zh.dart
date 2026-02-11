@@ -835,4 +835,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get ringingDefaultBody => '重要消息';
+
+  @override
+  String get docs => '使用文档';
 }
