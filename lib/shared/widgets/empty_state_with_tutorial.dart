@@ -52,7 +52,7 @@ class _EmptyStateWithTutorialState
       // 使用 GET 请求调用简化的推送接口：/v1/push/:platform/:token
       // 支持 query parameters: title, text, group_id 等
       final uri = Uri.parse(
-        '${ApiConstants.baseUrl}/v1${ApiConstants.pushPath}/$platform/$token'
+        '${ApiConstants.baseUrl}${ApiConstants.pushPath}/$platform/$token'
       ).replace(
         queryParameters: {
           'text': "Hello",
@@ -187,7 +187,7 @@ class _EmptyStateWithTutorialState
                 const SizedBox(width: LinuSpacing.sm),
                 Expanded(
                   child: SelectableText(
-                    '/v1${ApiConstants.pushPath}/${Platform.isIOS ? 'ios' : 'android'}/{token}?text=Hello',
+                    '${ApiConstants.pushPath}/${Platform.isIOS ? 'ios' : 'android'}/{token}?text=Hello',
                     style: theme.textTheme.bodySmall?.copyWith(
                       fontFamily: 'monospace',
                       color: theme.colorScheme.onSurfaceVariant,
