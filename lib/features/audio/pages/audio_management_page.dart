@@ -216,7 +216,7 @@ class AudioManagementPage extends ConsumerWidget {
                 const SizedBox(width: LinuSpacing.sm),
                 Expanded(
                   child: SelectableText(
-                    '${ApiConstants.pushPath}/ios/{token}?sound=my-sound',
+                    '${ApiConstants.pushPath}/${Platform.isAndroid ? 'android' : 'ios'}/{token}?sound=mysound',
                     style: theme.textTheme.bodySmall?.copyWith(
                       fontFamily: 'monospace',
                       color: theme.colorScheme.onSurfaceVariant,
@@ -230,7 +230,7 @@ class AudioManagementPage extends ConsumerWidget {
           // 查看文档按钮
           Center(
             child: GestureDetector(
-              onTap: () => launchUrl(Uri.parse(ApiConstants.docsUrl)),
+              onTap: () => launchUrl(Uri.parse('${ApiConstants.docsUrl}#advanced-sound')),
               child: Row(
                 mainAxisSize: MainAxisSize.min,
                 children: [

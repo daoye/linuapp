@@ -479,7 +479,7 @@ abstract class AppLocalizations {
   /// No description provided for @emptyField.
   ///
   /// In en, this message translates to:
-  /// **'(None)'**
+  /// **'None'**
   String get emptyField;
 
   /// No description provided for @delete.

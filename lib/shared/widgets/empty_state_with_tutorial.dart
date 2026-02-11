@@ -4,6 +4,7 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:go_router/go_router.dart';
 import 'package:http/http.dart' as http;
 import 'package:url_launcher/url_launcher.dart';
 import 'package:app/theme/app_theme.dart';
@@ -31,9 +32,9 @@ class _EmptyStateWithTutorialState
   Future<void> _sendTestPush() async {
     final l10n = AppLocalizations.of(context)!;
     final settings = ref.read(settingsProvider);
-    final token = settings.effectiveWebhookToken;
+    final token = settings.deviceToken;
 
-    if (token.isEmpty) {
+    if (token == null) {
       ToastService.instance.showCenter(
         l10n.testPushNoToken,
         false,
@@ -48,14 +49,17 @@ class _EmptyStateWithTutorialState
       final isIOS = Platform.isIOS;
       final platform = isIOS ? 'ios' : 'android';
       
-      final response = await http.get(
-        Uri.parse(
-          '${ApiConstants.baseUrl}${ApiConstants.pushPath}/$platform/$token'
-          '?title=${Uri.encodeComponent(l10n.testPushTitle)}'
-          '&text=${Uri.encodeComponent(l10n.testPushBody)}'
-          '&group_id=linu-welcome'
-        ),
-      ).timeout(const Duration(seconds: 10));
+      // 使用 GET 请求调用简化的推送接口：/v1/push/:platform/:token
+      // 支持 query parameters: title, text, group_id 等
+      final uri = Uri.parse(
+        '${ApiConstants.baseUrl}/v1${ApiConstants.pushPath}/$platform/$token'
+      ).replace(
+        queryParameters: {
+          'text': "Hello",
+        },
+      );
+
+      final response = await http.get(uri).timeout(const Duration(seconds: 10));
 
       if (!mounted) return;
 
@@ -183,7 +187,7 @@ class _EmptyStateWithTutorialState
                 const SizedBox(width: LinuSpacing.sm),
                 Expanded(
                   child: SelectableText(
-                    '${ApiConstants.pushPath}/ios/{token}?text=Hello',
+                    '/v1${ApiConstants.pushPath}/${Platform.isIOS ? 'ios' : 'android'}/{token}?text=Hello',
                     style: theme.textTheme.bodySmall?.copyWith(
                       fontFamily: 'monospace',
                       color: theme.colorScheme.onSurfaceVariant,
@@ -199,7 +203,7 @@ class _EmptyStateWithTutorialState
           // 查看文档按钮
           Center(
             child: GestureDetector(
-              onTap: () => launchUrl(Uri.parse(ApiConstants.docsUrl)),
+              onTap: () => context.push('/docs'),
               child: Row(
                 mainAxisSize: MainAxisSize.min,
                 children: [

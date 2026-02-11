@@ -63,7 +63,7 @@
   "defaultGroupName": "群组",
   "noMessagesInConversation": "暂无消息",
   "noMessagesInConversationDescription": "此群组中的消息将显示在这里",
-  "emptyField": "（无）",
+  "emptyField": "无",
   "delete": "删除",
   "deleteComingSoon": "删除功能将在后续版本提供。",
   "deleteConfirmation": "确定要删除吗？此操作无法撤销。",

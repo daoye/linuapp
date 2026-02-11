@@ -202,7 +202,7 @@ class AppLocalizationsEn extends AppLocalizations {
       'Messages in this group will appear here';
 
   @override
-  String get emptyField => '(None)';
+  String get emptyField => 'None';
 
   @override
   String get delete => 'Delete';

@@ -4,7 +4,7 @@
 
 class ApiConstants {
   static const String baseUrl = 'https://api.linu.aprilzz.com';
-  static const String pushPath = '/push';
+  static const String pushPath = '/v1/push';
   static const String docsUrl = 'https://linu.aprilzz.com/docs';
 }
 

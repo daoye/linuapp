@@ -198,7 +198,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get noMessagesInConversationDescription => '此群组中的消息将显示在这里';
 
   @override
-  String get emptyField => '（无）';
+  String get emptyField => '无';
 
   @override
   String get delete => '删除';

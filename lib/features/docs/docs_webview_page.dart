@@ -58,11 +58,11 @@ class _DocsWebViewPageState extends ConsumerState<DocsWebViewPage> {
     final supportedLocale = ['zh'].contains(locale) ? locale : 'en';
     final platform = Platform.isIOS ? 'ios' : 'android';
     
-    final uri = Uri.parse('https://linu.aprilzz.com/$supportedLocale/inapp-docs').replace(
+    final path = supportedLocale == 'en' ? 'inapp-docs' : '$supportedLocale/inapp-docs';
+    final uri = Uri.parse('https://linu.aprilzz.com/$path').replace(
       queryParameters: {
         if (token.isNotEmpty) 'token': token,
         'platform': platform,
-        'in_app': 'true',
       },
     );
 
