@@ -89,7 +89,7 @@ class _SettingsScreenState extends ConsumerState<SettingsScreen> {
                     leading: const Icon(Icons.description_outlined),
                     title: Text(l10n.termsOfService),
                     trailing: const Icon(Icons.open_in_new, size: 16),
-                    onTap: () => _openUrl('https://linu.aprilzz.com/terms'),
+                    onTap: () => _openUrl('https://linu.aprilzz.com/agreement'),
                   ),
                   const Divider(height: 1),
                   ListTile(
